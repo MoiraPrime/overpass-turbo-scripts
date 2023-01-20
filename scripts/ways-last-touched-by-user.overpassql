@@ -21,6 +21,4 @@
   way["highway"](user:"NE2")(area.searchArea);
 );
 // print results
-out body;
->;
-out skel qt;
+out geom;

@@ -23,6 +23,4 @@
   way["highway"="residential"]["name"!~".*"](area.searchArea);
 );
 // print results
-out body;
->;
-out skel qt;
+out geom;
