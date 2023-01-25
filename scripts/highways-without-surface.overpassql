@@ -7,6 +7,12 @@
 )->.searchArea;
 
 (
-    way[highway=motorway][highway=trunk][highway=primary][highway=secondary][highway=tertiary][highway=unclassified][highway=residential][!surface](area.searchArea);
+    way[highway=motorway][!surface](area.searchArea);
+    way[highway=trunk][!surface](area.searchArea);
+    way[highway=primary][!surface](area.searchArea);
+    way[highway=secondary][!surface](area.searchArea);
+    way[highway=tertiary][!surface](area.searchArea);
+    way[highway=unclassified][!surface](area.searchArea);
+    way[highway=residential][!surface](area.searchArea);
 );
 out geom;
